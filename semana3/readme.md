@@ -19,6 +19,7 @@ En este programa utilicé condiciones (if) para determinar si el número entero 
 En este programa utilicé condiciones para determinar si los dos números que le pedía al usuario por medio de printf y scanf eran iguales, o diferentes y cuál era mayor que el otro. Para ograr lo anterior, tuve que hacer 2 condiciones y un else que indica qué ocurre si las condiciones pasadas no se llevan a cabo.
 
 6) EJEMPLO 3-Mayúsculas o minúsuclas
+En este programa utilicé otra vez condiciones para establecer si la variable de tipo char (ya que era una letra) era minúscula o mayúscula. Pra esto, primero tuve que escribir a qué equivalía una a mayúscula y una a minúscula con operaciones y descubrí que || significa "o". Al final, usé un else para poner que la variable era consonante si no cumplía con la condición de arriba. 
 
 7) UNIFICACIÓN-Switch, coordenadas polares
 En este programa uní el programa de las temperaturas y el de las coordenadas con la función switch,la cual ayuda a poner opciones, es decir, a que el usuario pueda escoger qué quiere que realice la máquina dependiendo de las opciones que se le dan.Para este programa utilicé una 2° librería (math.h) ya que iba a utilizar coseno y tangente para convertir coordenadas cartesianas a polares. Tuve que utilizar varias variables para o (el ángulo) para sumarle los grados que le faltaban. 
