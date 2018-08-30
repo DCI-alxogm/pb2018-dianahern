@@ -9,7 +9,7 @@ int main()
 	int n=10;// Utilicé int porque quiero que si la temp_C es menor o igual a 200 vaya aumentando de 10 en 10 para que se acabe el while sino, sería infinito
 
 	delta=(final-inicial)/n;
-	temp_C=inicial;
+	temp_C=inicial;//Aquí se pone que temp_C sea igual a la inicial para que al principio valga 100.
 //Escribo las operaciones que voy a necesitar.
 
 	while(temp_C<=final){
@@ -20,4 +20,4 @@ int main()
 
 	} //Cierra la función de while
 return 0;
-}
+} //Se cierra el cuerpo del programa
