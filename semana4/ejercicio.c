@@ -2,7 +2,7 @@
 
 #include<stdio.h>
 #include<math.h>
-//INcluyo las dos librerías que voy a usar en este programa
+//Incluyo las dos librerías que voy a usar en este programa, ya que voy a usar operaciones como igualdades etc.
 
 int main()
 {
@@ -10,14 +10,16 @@ int main()
 	int opcion;
  	float cent,kelvin,faren, cent2;
  	float x,y,r,o,o_2, o_3, o_4;
-	char op='s';
+	char op='s';//Esta variable es char porque quiero que me usuario pueda poner si o no, las cuales son letras.
+//Hago la declaración de variables poniendo el tipo que son cada una, si son enteras, decimales (float) o letras (char)
 	
 
-while(op=='s'){
+while(op=='s'){ //Aquí posiciones el while para que se repita todo el programa siempre que mi usuario escoja s, o bien una palabra que inicie con "S"
 
   printf("\n Hola, dime qué operación quieres realizar:\n");
   printf("Opción(1): calcula la temperatura de grados C a K y F y viceversa\n");
   printf("Opción(2): calcula la conversión de coordenadas cartesianas a polares y te indica el cuadrante donde están:\n");
+//Le doy al usuario la oportunidad de escoger entre 2 opciones utilizando printf y scanf. La variable que uso es opcion.
 
   scanf("%i", &opcion);
 
@@ -57,7 +59,7 @@ while(op=='s'){
 
 	r=sqrt(pow(x,2)+pow(y,2));//Se ponen las operaciones.
 	o=(atan(y/x))*57.3;
-	o_2=o+180;
+	o_2=o+180; //En este caso le sumo 180 y 360 para que el ángulo salga con respecto a la horizontal.
 	o_3=o+180;
 	o_4=o+360;
 	
@@ -100,12 +102,12 @@ while(op=='s'){
   printf("\n No existe la opción que está indicando, favor de escoger entre opción1 u opción2\n");
   
   break;//Cierra la parte de default
-}
+}// Cierra la función switch
 
-	printf("\n ¿Quieres hacer otra operación? Pon (si, no)\n");
-	scanf("%s",&op);
-}
+	printf("\n ¿Quieres hacer otra operación? Pon (si, no)\n"); //Sirve para darle la opción al usuario de volver al inicio o no.
+	scanf("%s",&op); //Utilicé %s porque mi variable es una letra
+} //Esta llave cierra el while que usé al inicio, hasta aquí se va a realizar el programa que esté dentro del while.
 
 return 0;
 /*Return sirve para cerrar el programa.*/
-}
+} //Llave que cierra el programa
