@@ -15,16 +15,18 @@ int main(){
 	printf("Dame qué espaciado quieres:\n");
 	scanf("%f", &delta);
 
-	n=(x2-x1)/delta;
-	
 
-	for(i=0;i<n;i++){
-        x=(x1+delta);
+	n=((x2-x1)/delta);
+	for(i=0;i<=n;i++){
+
+        x=(x1+(delta*i));
 	exp_=exp(x);
 	log_=log(x);
 	sin_=sin(x);
 	cos_=cos(x);
 	raiz=sqrt(x);
+
+	printf("El número es %f \n", x);
 
 	printf("El exponente de tu número es: %f \n", exp_);
 	printf("El logaritmo de tu número es:%f \n", log_);
