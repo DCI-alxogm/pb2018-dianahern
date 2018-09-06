@@ -6,6 +6,7 @@
 int main(){
 
 	int num_final, num_inicial, r, i, o, primo, op=1, contador;
+
 	
 	while(op==1){
 	contador=0;
@@ -16,8 +17,8 @@ int main(){
 	printf("Dime un número con el que quieras terminar: \n");
 	scanf("%i", &num_final);
 
-	while((num_final-num_inicial)>100){
-	printf("Tu intervalo es demasiado grande, escirbe otro");
+	while((contador)>100){
+	printf("Tu intervalo es demasiado grande, escribe otro");
 	printf("Dime un número con el que quieras iniciar: \n");
 	scanf("%i", &num_inicial);
 
@@ -42,7 +43,7 @@ int main(){
 		printf(" %i",i);
 		contador++;
 			
-			if(contador%10==0) printf("\n");
+			if(contador%20==0) printf("\n");
 
 		}	
 		}
@@ -57,10 +58,4 @@ int main(){
 return 0;
 }
  
-	
-
-
-	
-
-
-	
+ 
