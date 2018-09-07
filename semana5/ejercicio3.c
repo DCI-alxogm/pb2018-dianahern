@@ -16,7 +16,7 @@ int main(){
 	printf("Dime un número con el que quieras terminar: \n");
 	scanf("%i", &num_final);
 
-	while((num_final-num_inicial)>100){ //Este while se va a correr cuando mi intervalo sea mayor que 100
+	while((num_final-num_inicial)>524){ //Este while se va a correr cuando mi intervalo sea mayor que 524 (ya que del 1 al 523 hay 100 números primos
 	printf("\n Tu intervalo es demasiado grande, escribe otro más chico:\n"); //Va a comunicar al usuario que es muy grande su intervalo, y que por lo tanto, debe dar otro menor.
 	printf("\n Dime un número con el que quieras iniciar: \n");
 	scanf("%i", &num_inicial);
@@ -39,8 +39,9 @@ int main(){
 		if(primo==1){ //Si sale que el residuo es 1, entonces es un número primo y se imprime
 		printf(" %i",i);
 		contador=contador+1; //El contador indica cuántos números primos has impreso
+		
 			
-			if(contador==20){
+			if(contador%20==0 ){
 			printf("\n"); //ESta condición indica que cuando el contador llegue a 20, entonces hay un salto de línea
 			}
 
@@ -50,7 +51,6 @@ int main(){
 		
 	printf("\n Introduce 1 si quieres volver a realizar el programa, 2 si quieres salir: \n"); //Da la opción al usuario de volver a correr el programa
 	scanf("%i", &op);
-	
 	}
 
 return 0; //Cierra el programa

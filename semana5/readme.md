@@ -20,12 +20,18 @@ EJERCICIO #2- Factorial
 En este programa, se utiliza el while para que se corra el programa una y otra vez siempre que el usuario escoja opción 1. Además se utilizó FOR con ,a condición de que vaya de 1 hasta el número que el usuario inytroduce en la computadora. El factorial será entonces la multiplicación de los valores que va tomando i (del 1-el número) por el resultado del factorial anterior. Al final se imprime el eresultado y el printf de que si el usuario quiere volver a correr el programa.
 
 EJERCICIO #3-Números primos
-En este programa fue necesario uytilizar la librería math.h para poder hacer una raíz cuadrada. LO primero que hice fue declarar mis variables y poner un while que corriera todo el programa siempre y cuando mi usuario pusiera 1. Después le pedí al usuario 2 números que sirven de mi intervalo, imprimiéndole que cambiara de números en caso de que éste excediera a 100 por medio de un while. 
+En este programa fue necesario uytilizar la librería math.h para poder hacer una raíz cuadrada. LO primero que hice fue declarar mis variables y poner un while que corriera todo el programa siempre y cuando mi usuario pusiera 1. Después le pedí al usuario 2 números que sirven de mi intervalo, imprimiéndole que cambiara de números en caso de que éste excediera a 524 ya que del 1 al 523 hay 100 números primos, no obtsnte esto no se cumplirá siempre en cualquier otro intervalo, ya que los números primos no son periódicos. LO anterior lo hice con un WHILE.
+ 
 Después usé un for para que i fuera cambiando de valor adquieriendo cada número de mi intervalo (num final- num inicial). LUego saqué raí cuadrada a cada número(i) y establecí condiciones de que en caso de que el residuo de la división de i entre otra serie de números que fueran del 2 hasta el valor adquirido por la raíz de cada número, fuera 0, entonces no sería primo; y por el contrario, si no se podía hacer la división, imprimiera el número a la pantalla.
 
-Después etsablecí que por cada 20 números primos impresos, se slatara una línea mi programa. Esto lo hice por medio de un contador que se sumara 1 cada vez que imprimiera un número a la pantalla.
+Después establecí que por cada 20 números primos impresos, se inslatara una línea en mi programa. LO anterior lo hice utilizando un módulo, pues siempre que sea divisible entre 20, va a ver un salto de línea. Esto lo hice por medio de un contador que se sumara 1 cada vez que imprimiera un número a la pantalla.
 
 EJERCICIO #4-Números binarios
+En este ejercicio puse todas mis variables de tipo int menos una, que fue bin[100] (que fue de tipo char) ya que para obtener la conversión de números decimales a binarios, era necesario separar los dígitos de éste para que se imprimieran al revés de cómo se obtuvieron en las operaciones. Después, puse un switch para darle la oportunidad al usuario de escoger el programa que quiesiera (convertir un número decimal a binario o al revés).
+
+En el case 1: puse la conversión de binario a decimal, en el que usé un WHILE que se repitiera siempre que mi binario estuviese cambiando (éste siempre lo hacía al final, pues lo dividía entre 10). DEspués puse condiciones, para que siempre que la división del decimal entre 10 fuera diferente de 0, se sumaran los resultados de 2 elevado al contador (el cual iniciaba en 0 y terminaba en mi decimal-1). La sumatoria de lo anterior es en realidad mi DECIMAL y ese se imprimía al final del programa.
+
+En el case 2: puse la conversión de decimal a binario. Puse un WHILE que se repitiera siempre que mi número fuera mayor a 0 (ya que éste estaría cambiando por cada while que se corriera, pues al final puse que mi número se dividiera entre 2). Luego puse condiciones, si la división de mi número decimal entre 2 daba 1 (es decir daba un quebrado), entonces el primer caracter del string sería 0, si daba otra cosa, entonces el caracter siguiente sería 1. DEbido a que los bimarios se ponen al revés de como los vas obteniendo, tuve que utlizar un for que fuera de -1 en -1 y así se imprimían mis caracteres al revés de como los obtuve,
 
 
 
