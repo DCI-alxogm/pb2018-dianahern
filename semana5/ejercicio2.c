@@ -1,31 +1,28 @@
-//CReado por Diana Ailed Hernández BUstos el 05/08/18
+//Creado por Diana Ailed Hernández BUstos el 05/08/18
 
-#include<stdio.h>
+#include<stdio.h> //Incluyo la librería que voy a usar
 
-int main() 
+int main() //Pongo la función maestra
 {
 
-	int n, i, factorial=1, factorial2;
+	int n, i, factorial, op=1; //Mis variables son enteras por lo que uso INT, además las variables dentro de FOR siempre son enteras. ES necesario que op sea igual a 1 para que while se pueda correr.
 
-while(factorial==1){
+while(op==1){ //Este while hace que todo el programa corra de nuevo siempre y cuando el usuario escoja que sí.
+	factorial=1;
+	printf("Dame un número entero para calcular su factorial: \n "); //Pide el número que se va a usar al usuario
+	scanf("%i", &n); //El programa lo agarra
 
-	printf("Dame un número entero para calcular su factorial: \n ");
-	scanf("%i", &n);
+for(i=1;i<= n;i++){ //El FOR inicia en 1 porque el primer factorial es 1 y termina en el número, ya que así se debe yterminal un factborial. Además va de 1 en 1.
 
-for(i=1;i<= n;i++){
-
-	factorial= factorial*i;
-	factorial2= factorial;
-	
-	
-}
+	factorial= factorial*i; //El primer factorial va a ser una nueva variable que almacene las operaciones que realiza el factorial2 con el valor de i cambiante que va desde 1 hasta el número indicado.
+	}
 		
-	printf("Tu factorial es: %i \n", factorial2);
-	printf("¿Quieres hacer otra operación? (Opción 1: sí, Opción 2: no)"); 
-	scanf("%i", &factorial);
+	printf("Tu factorial es: %i \n", factorial); //Se imprime el resultado
+	printf("¿Quieres hacer otra operación? (Opción 1: sí, Opción 2: no)"); //ESta opción está relacionado con el while, el cual da la posibilidad de que el usuario pueda correr de nuevo el programa
+	scanf("%i", &op);
 }
 
-return 0;
+return 0; //Se cierra el programa
 }
 
 

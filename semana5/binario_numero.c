@@ -5,8 +5,9 @@
 
 int main(){
 
-	int opcion=0; binario=0, aux=0, count=0; decimal=0;
+	int opcion, binario=0, aux=0, count=0, decimal=0;
 	char bin[100];
+
 	printf("¿Qué operación deseas realizar?: \n 1)Convertir un número binario a decimal \n 2)Convertir un número decimal a binario:\n");
 	scanf("%i", &opcion);
 
@@ -17,11 +18,12 @@ switch(opcion){
 	scanf("%i", &binario);
 
 	while(binario>0){
+	count=0;
 		aux=binario%10;
 		if(aux!=0){
-			decimal+=pow(2,count);
+			decimal= decimal+(pow(2,count));
 		}
-		binario/=10;
+		binario= binario/ 10;
 		count++;
 
 	}
@@ -32,7 +34,7 @@ switch(opcion){
 	case 2:
 	printf("Introduce un número decimal entero: \n");
 	scanf("%i", &decimal);
-
+	printf("\n Su equivalente en binario es:\n");
 
 	while(decimal>0){
 		if(decimal%2==1){
@@ -44,14 +46,12 @@ switch(opcion){
 		decimal/=2;
 	}
 	for(int i=count; i>0; i--){
-		printf("%c", bin[i-1]);
+		
+		printf(" %c \n", bin[i-1]);
 	}
+	
 	break;
 }
 return 0;
+}
 
-
-
-
-
-	printf("\n Ese número en binario es: %i", bin)
