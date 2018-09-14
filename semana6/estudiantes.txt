@@ -1,0 +1,11 @@
+#nombre  	 sexo   promedio  edad  semestre
+Alma    	  1      10        35     8
+Diana    	  1      8.5       19     9
+Diana Rosales     1      9.8       19     1
+Daniel		  0      3.4       25     6
+Dominic		  0      2.6       32     5
+Fernanda	  1      7.8       26     7
+Ricardo           0      9.7       19     2		  
+Adán              0      6.7       22     1
+Juana             1      5.8       30     9
+Lucía             1      7.9       25     3
