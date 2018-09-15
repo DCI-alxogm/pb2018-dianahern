@@ -1,0 +1,12 @@
+El número es: 1.000000 
+El exponente del número es: 2.718282 
+El logaritmo del número es: 0.000000 
+El seno del número es: 0.841471 
+El coseno del número es: 0.540302 
+La raíz de tu número es: 1.000000 
+El número es: 2.000000 
+El exponente del número es: 7.389056 
+El logaritmo del número es: 0.693147 
+El seno del número es: 0.909297 
+El coseno del número es: -0.416147 
+La raíz de tu número es: 1.414214 
