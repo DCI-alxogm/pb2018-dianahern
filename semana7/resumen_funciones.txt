@@ -1,23 +1,63 @@
+El número que se está evaluando es: 0.000000
+El resultado del número elevado a la potencia es: 0.000000
+El resultado de la integral es: 95.000000
+El número que se está evaluando es: 0.500000
+El resultado del número elevado a la potencia es: 0.250000
+El resultado de la integral es: 95.125000
 El número que se está evaluando es: 1.000000
 El resultado del número elevado a la potencia es: 1.000000
+El resultado de la integral es: 95.250000
+El número que se está evaluando es: 1.500000
+El resultado del número elevado a la potencia es: 2.250000
+El resultado de la integral es: 95.375000
 El número que se está evaluando es: 2.000000
 El resultado del número elevado a la potencia es: 4.000000
+El resultado de la integral es: 95.500000
+El número que se está evaluando es: 2.500000
+El resultado del número elevado a la potencia es: 6.250000
+El resultado de la integral es: 95.625000
 El número que se está evaluando es: 3.000000
 El resultado del número elevado a la potencia es: 9.000000
+El resultado de la integral es: 95.750000
+El número que se está evaluando es: 3.500000
+El resultado del número elevado a la potencia es: 12.250000
+El resultado de la integral es: 95.875000
 El número que se está evaluando es: 4.000000
 El resultado del número elevado a la potencia es: 16.000000
+El resultado de la integral es: 96.000000
+El número que se está evaluando es: 4.500000
+El resultado del número elevado a la potencia es: 20.250000
+El resultado de la integral es: 96.125000
 El número que se está evaluando es: 5.000000
 El resultado del número elevado a la potencia es: 25.000000
+El resultado de la integral es: 96.250000
+El número que se está evaluando es: 5.500000
+El resultado del número elevado a la potencia es: 30.250000
+El resultado de la integral es: 96.375000
 El número que se está evaluando es: 6.000000
 El resultado del número elevado a la potencia es: 36.000000
+El resultado de la integral es: 96.500000
+El número que se está evaluando es: 6.500000
+El resultado del número elevado a la potencia es: 42.250000
+El resultado de la integral es: 96.625000
 El número que se está evaluando es: 7.000000
 El resultado del número elevado a la potencia es: 49.000000
+El resultado de la integral es: 96.750000
+El número que se está evaluando es: 7.500000
+El resultado del número elevado a la potencia es: 56.250000
+El resultado de la integral es: 96.875000
 El número que se está evaluando es: 8.000000
 El resultado del número elevado a la potencia es: 64.000000
+El resultado de la integral es: 97.000000
+El número que se está evaluando es: 8.500000
+El resultado del número elevado a la potencia es: 72.250000
+El resultado de la integral es: 97.125000
 El número que se está evaluando es: 9.000000
 El resultado del número elevado a la potencia es: 81.000000
+El resultado de la integral es: 97.250000
+El número que se está evaluando es: 9.500000
+El resultado del número elevado a la potencia es: 90.250000
+El resultado de la integral es: 97.375000
 El número que se está evaluando es: 10.000000
 El resultado del número elevado a la potencia es: 100.000000
-El número que se está evaluando es: 11.000000
-El resultado del número elevado a la potencia es: 121.000000
-El resultado de la integral es: 0.000000
+El resultado de la integral es: 97.500000
