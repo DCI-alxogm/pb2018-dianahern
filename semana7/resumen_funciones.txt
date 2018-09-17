@@ -1,0 +1,23 @@
+El número que se está evaluando es: 1.000000
+El resultado del número elevado a la potencia es: 1.000000
+El número que se está evaluando es: 2.000000
+El resultado del número elevado a la potencia es: 4.000000
+El número que se está evaluando es: 3.000000
+El resultado del número elevado a la potencia es: 9.000000
+El número que se está evaluando es: 4.000000
+El resultado del número elevado a la potencia es: 16.000000
+El número que se está evaluando es: 5.000000
+El resultado del número elevado a la potencia es: 25.000000
+El número que se está evaluando es: 6.000000
+El resultado del número elevado a la potencia es: 36.000000
+El número que se está evaluando es: 7.000000
+El resultado del número elevado a la potencia es: 49.000000
+El número que se está evaluando es: 8.000000
+El resultado del número elevado a la potencia es: 64.000000
+El número que se está evaluando es: 9.000000
+El resultado del número elevado a la potencia es: 81.000000
+El número que se está evaluando es: 10.000000
+El resultado del número elevado a la potencia es: 100.000000
+El número que se está evaluando es: 11.000000
+El resultado del número elevado a la potencia es: 121.000000
+El resultado de la integral es: 0.000000
