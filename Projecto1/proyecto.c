@@ -7,20 +7,26 @@ int main(){
 
 	FILE*fp;
 	fp=fopen("planeta.txt","r");
-	double x,y,z,xi, yi, zi, m;
-	float t1, t2;
+	double xi,yi,zi,vxi, vyi, vzi, m, x2, y2, z2,h, vx2, vy2, vz2;
+	float t1=0, t2=3600;
 
-	fscanf(fp,"%lf %lf %lf", &x,&y,&z);
 	fscanf(fp,"%lf %lf %lf", &xi,&yi,&zi);
-	fscanf(fp,"%f %f", &t1,&t2);
+	fscanf(fp,"%lf %lf %lf", &vxi,&vyi,&vzi);
 	fscanf(fp,"%lf", &m);
 	
-	printf("%lf, %lf, %lf \n", x,y,z);
-	printf("%e, %e, %e \n", xi,yi,zi);
-	printf("%f, %f, %e \n", t1,t2,m);
+	printf("%lf, %lf, %lf \n", xi,yi,zi);
+	printf("%e, %e, %e \n", vxi,vyi,vzi);
+	printf("%e \n", m);
 	fclose(fp);
 
-	
+	h=t2-t1;
+	h=	
+	for(
+	x2=xi+vxi*h;
+	y2=yi+vyi*h;
+	z2=zi+vzi*h;
+
+	vx2= vxi-h*
 return 0;
 }
 
