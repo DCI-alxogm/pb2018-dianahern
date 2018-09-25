@@ -1,4 +1,4 @@
-La calificación promedio de los 10 alumnos fue de 6.380000. 
+La calificación promedio de los 10 alumnos fue de 7.280000. 
 
  RESUMEN: En el semestre 1, hay 0 hombres y 2 mujeres.
 
@@ -6,9 +6,9 @@ La calificación promedio de los 10 alumnos fue de 6.380000.
 
  RESUMEN: En el semestre 3, hay 0 hombres y 0 mujeres.
 
- RESUMEN: En el semestre 4, hay 0 hombres y 2 mujeres.
+ RESUMEN: En el semestre 4, hay 0 hombres y 3 mujeres.
 
- RESUMEN: En el semestre 5, hay 1 hombres y 0 mujeres.
+ RESUMEN: En el semestre 5, hay 0 hombres y 1 mujeres.
 
  RESUMEN: En el semestre 6, hay 0 hombres y 0 mujeres.
 
@@ -16,4 +16,4 @@ La calificación promedio de los 10 alumnos fue de 6.380000.
 
  RESUMEN: En el semestre 8, hay 1 hombres y 0 mujeres.
 
- RESUMEN: En el semestre 9, hay 0 hombres y 1 mujeres.
+ RESUMEN: En el semestre 9, hay 1 hombres y 0 mujeres.

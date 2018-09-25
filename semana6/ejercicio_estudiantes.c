@@ -16,9 +16,8 @@ int main(){
 	
 	for(i=0; i<n; i++){ //FOR que va a recorrer 10 veces, ya que hay 10 datos por alumno en mi documento a leer
 
-	fscanf(fpest, "%i", &semestres[i]);//Se capta la información de los semestres primero (es la primera columna de mi base de datos)
-	fscanf(fpest, "%i", &genero[i]); //Se capta la información del dgénero de los alumnos (2° columna)
-	fscanf(fpest, "%f", &calificaciones[i]);//Se capta la información de las calificacionesn (3° columna)
+	fscanf(fpest, "%i %f %i", &genero[i], &calificaciones[i], &semestres[i]);//Se capta la información de los semestres primero (es la primera columna de mi base de datos)
+	printf("%i, %f, %i \n", genero[i], calificaciones[i], semestres[i]);
 	
 	}
 	fclose(fpest); //Cierro documento a leer
