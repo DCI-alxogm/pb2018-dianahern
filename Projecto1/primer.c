@@ -7,28 +7,18 @@ int main(){
 
 	FILE*fp;
 	FILE*fp2;
-	FILE*mercurio;
-	FILE*venus;
-	FILE*marte;
-	FILE*jupiter;
-	FILE*saturno;
-	FILE*urano;
-	FILE*neptuno;
-	FILE*pluton;
 
 	fp=fopen("planeta.txt","r");
-	double xi[9],yi[9],zi[9],vxi[9], vyi[9], vzi[9], x2[9], r, y2[9], z2[9],h, vx2[9], vy2[9], vz2[9];
-	float t1[9], t2[9], G, k;
-	int i;
+	double xi,yi,zi,vxi, vyi, vzi, x2, r, y2, z2,h, vx2, vy2, vz2;
+	float t1, t2, G, k;
+	
 
-	for(i=1; i<=9; i++){
+	fscanf(fp,"%lf %lf %lf", &xi, &yi,&zi);
+	fscanf(fp,"%lf %lf %lf %f %f", &vxi,&vyi,&vzi, &t1, &t2);
 	
-	fscanf(fp,"%lf %lf %lf", &xi[i],&yi[i],&zi[i]);
-	fscanf(fp,"%lf %lf %lf %f %f", &vxi[i],&vyi[i],&vzi[i], &t1[i], &t2[i]);
-	
-	printf("%lf, %lf, %lf \n", xi[i],yi[i],zi[i]);
-	printf("%lf, %lf, %lf \n", vxi[i],vyi[i],vzi[i]);
-	printf("%f, %f \n", t1[i], t2[i]);
+	printf("%lf, %lf, %lf \n", xi,yi,zi);
+	printf("%lf, %lf, %lf \n", vxi,vyi,vzi);
+	printf("%f, %f \n", t1, t2);
 	
         
 	fclose(fp);
@@ -37,7 +27,7 @@ int main(){
 	h=0.0027;
 	G=4*pow(3.1416,2);
 
-	fp2=fopen("resultados.txt", "w");
+	fp2=fopen("resultadostierra.txt", "w");
 	fprintf(fp2, "DÍA \t     (X) \t       (Y) \t      (Z) \t      (VX) \t       (VY) \t      (VZ) \n"); 
 		
 		for(k=t1; k<=t2 ; k+=h){
@@ -73,4 +63,3 @@ return 0;
 }
 
 
-	
