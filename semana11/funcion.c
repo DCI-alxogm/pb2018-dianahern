@@ -61,7 +61,7 @@ void imprimir(double **matriz, int N){
 			//Necesito estos 2 FORS para que vayan imprimiendo las temperaturas de cada uno de los puntos de las placas 
 			for(i=0; i<N; i++){ 
 	 		 for(j=0; j<N; j++){
-				fprintf(fp2, "%lf ", matriz[i][j]); //Imprimo en mi archivo de escritura la matriz completa
+				fprintf(fp2, "%lf  ", matriz[i][j]); //Imprimo en mi archivo de escritura la matriz completa
 			  }
 			fprintf(fp2,"\n");	
 			}	
