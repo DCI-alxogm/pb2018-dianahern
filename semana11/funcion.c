@@ -52,6 +52,12 @@ void imprimir(double **matriz, int N){
 
 		count=count+1; //Hago que mi contador vaya cambiando con cada iteración que pase 
 
+		if (count>=1000){ //ES necesario poner un límite para las iteraciones que se llevan a cabo
+			printf("Tu programa excedió el número de iteraciones");
+		return 1; //Se sale del programa en caso de que excediera
+		}
+
+
 		//Esta condición sirve para asignarle el nombre a cada uno de los archivos que se van a crear, los cuales contienen las diferentes matrices que se están creando con cada una de las iteraciones
 		if(count%6==0){ //Cada vez que el contador se divida en 6 se va a imprimir una matriz
 		char buffer [32]; //SE utiliza una variable de tipo char que tenga varios elementos (los diferentes nombres) de mis archivos a crear
