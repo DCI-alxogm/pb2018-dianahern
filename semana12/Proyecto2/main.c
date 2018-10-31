@@ -1,8 +1,10 @@
-//Creado por Diana Ailed Hdez. Bustos el 24/10/18
+//Creado por Diana Ailed Hdez. Bustos el 31/10/18
 
 #include<stdio.h> //Incluyo las librerías que se van a usar
 #include<stdlib.h> //Utilicé esta librería porque hice uso de memoria dinámica
-#include "funciones.h"
+#include "funciones.h"//Utilizo esta librería que cree con el nombre de "funciones.h" ya que en ésta se encuentran las funciones que voy a utilizar en mi programa
+
+//Poner esta librería nueva sirve para no tener que declarar en esta parte las fucniones utilizadas
 
 int main(){ //Inicio mi programa
 	FILE*fp; //Hago declaración de mi archivo de lectura

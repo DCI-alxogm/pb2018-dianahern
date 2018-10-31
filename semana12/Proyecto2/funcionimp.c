@@ -1,5 +1,7 @@
-#include "funciones.h"
-#include <stdio.h>
+//Creado por Diana Ailed Hernández Bustos el 31/10/18
+
+#include "funciones.h" //Utilizo esta librería que cree con el nombre de "funciones.h" ya que en ésta se encuentran las funciones que voy a utilizar en mi programa
+#include <stdio.h> //Incluyo las demás librerías como siempre
 #include <stdlib.h>
 
 void imprimir(double **matriz, int N){
@@ -7,7 +9,7 @@ void imprimir(double **matriz, int N){
 	FILE*fp2; //Hago la deckaración de mi archivo de lectura
 	double ep, pt=101, aux; 
 	int j, i, count=0;
- 
+
 //Hice un While que corriera siempre que mi pt (PORCENTAJE DE ERROR) fuera mayor a 0.000001. El valor de pt se calcula a partir de mi epsilon 
 	while(pt>0.000001){
 
@@ -51,6 +53,5 @@ void imprimir(double **matriz, int N){
 	printf("\n el contador es: %i \n", count); 		
 	
 	fclose(fp2); //Cierro mi archivo de escritura	
-
-return 0; //Cierro la función
+ //Cierro la función
 }

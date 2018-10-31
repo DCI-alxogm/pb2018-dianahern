@@ -1,11 +1,17 @@
+//Creado por Diana Ailed Hernández Bustos el 31/10/18
+
 #include<stdio.h> //Incluyo las librerías que se van a usar
 #include<stdlib.h> //Utilicé esta librería porque hice uso de memoria dinámica
-#include "funciones.h"
+
+#include "funciones.h"//Utilizo esta librería que cree con el nombre de "funciones.h" ya que en ésta se encuentran las funciones que voy a utilizar en mi programa
 
 //Abro mi 1° función: la cual ayuda a inicializar la matriz de acuerdo a los datos obtenidos en el archivo de lectura, y regresa a la función main la matriz inicial.
 double **inicializar(double **matriz, double arriba, double abajo,double izq,double der, int N){ 
 	//Se hace la declaración de mis variables
 	int i, j; 
+	FILE*fp; //Aquí tuve que poner estas variables también porque si no, no compilaba mi programa
+	FILE*fp2;
+	double ep, pt=101, aux; //
 	int count=0;
 
 	for(i=0; i<N; i++){// Este FOR empieza en i=0  y termina en i=N porque éstos corresponde a los espacios donde se encuentran mis bordes, los cuales ya tienen temperatura fija
@@ -22,7 +28,6 @@ double **inicializar(double **matriz, double arriba, double abajo,double izq,dou
 	}
  
 return matriz; //Devuelvo a mi programa, en el otro archivo, el valor de matriz inicializada
-
 }
 
 
