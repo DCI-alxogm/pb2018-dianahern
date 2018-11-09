@@ -1,0 +1,4 @@
+Creado por Diana Ailed Hernández Bustos el 09/11/18
+
+EJERCICIO- Gráfica de puntos
+Lo primero que hice fue la declaración de mis librerías: matplotlib.pyplot y numpy y se les pone un "alias". El primero es para graficar y el segundo para hacer arreglos. A continuación, escojo 10 coordenadas donde se encuentran 10 puntos y los pongo en un arreglo de 2 dimensiones [i,j]. Las coordenadas se ponen al azar con la función np.random. Luego imprimí las coordenadas de los 10 puntos para ver cómo se comportaban y convertí con funciones de np seno y coseno las coordenadas cartesianas a polares. Después imprimí con 2 FORS los puntos del centro y los 10 puntos alrededor formando un círculo y sólo imprimí círculos alrededor de 5 centros con una condición. Imprimí los gráficos con la función plt.scatter. 
